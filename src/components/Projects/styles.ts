@@ -11,15 +11,18 @@ export const Container = styled.section`
     }
 `;
 
-export const Content = styled.div`
+export const Carousel = styled.div`
     display: grid;
     grid-template-columns: repeat(3,1fr); //3 colunas de tamanho igual
     gap: 1rem; 
 
-    div {
-        background: gray;
-        padding: 1.5rem 2rem;
-        color: var(--text-body);    
+    padding: 0px;
+
+    img {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
     }
+    
     
 `;
