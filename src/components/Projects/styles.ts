@@ -18,10 +18,13 @@ export const Slider = styled.div`
 
     .card {
         position: relative;
+        
     }
 
     .card figure {
         background: #000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
     }
 
     .elements {
@@ -47,13 +50,9 @@ export const Slider = styled.div`
         opacity: 0.3;
     }
 
-    img {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-    }
-
     .icons {
-        height: 50px;
         padding-top: 50px;
+        display: flex;
+        gap: 2rem;
     }
 `;
