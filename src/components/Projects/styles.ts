@@ -11,18 +11,49 @@ export const Container = styled.section`
     }
 `;
 
-export const Carousel = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3,1fr); //3 colunas de tamanho igual
-    gap: 1rem; 
+export const Slider = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 
-    padding: 0px;
+    .card {
+        position: relative;
+    }
+
+    .card figure {
+        background: #000;
+    }
+
+    .elements {
+        position: absolute;
+        z-index: 10;
+        width: 90%;
+        top: 9rem;
+        left: 1rem;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    label {
+        color: #fff;
+    }
+
+    .card:hover .elements {
+        transition: all 0.2s ease;
+        opacity: 1;
+    }
+
+    .card:hover .image {
+        background: red;
+        opacity: 0.3;
+    }
 
     img {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
     }
-    
-    
+
+    .icons {
+        height: 50px;
+        padding-top: 50px;
+    }
 `;

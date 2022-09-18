@@ -1,8 +1,9 @@
-
-import { Container, Carousel } from "./styles";
+import { Container, Slider } from "./styles";
 import photo1 from "../../assets/project-1.png";
 import photo2 from "../../assets/project-2.png";
 import photo3 from "../../assets/project-3.png";
+import github from "../../assets/github-circle.svg";
+import hand from "../../assets/hand.svg";
 
 export function Projects () {
     return(
@@ -10,20 +11,40 @@ export function Projects () {
         <Container>
             <h1>Projects</h1>
 
-            <Carousel>
-                <div>
-                <img src={photo1} alt="project-1"></img>
+            <Slider id="projects">
+                <div className="card">
+                    <figure><img className="image" src={photo1} alt="project-1"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
-                <img src={photo2} alt="project-2"></img>
+                <div className="card">
+                    <figure><img className="image" src={photo2} alt="project-2"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={github} alt="Github-logo" /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={hand} alt="click-to-see" /></a>
+                    </div>
                 </div>
 
-                <div>
-                <img src={photo3} alt="project-3"></img>
+                <div className="card">
+                    <figure><img className="image" src={photo3} alt="project-3"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={github} alt="Github-logo" /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={hand} alt="click-to-see" /></a>
+                    </div>
                 </div>
 
-            </Carousel>
+            </Slider>
         </Container>
     );
 }
