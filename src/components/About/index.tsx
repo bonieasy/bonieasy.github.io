@@ -13,6 +13,7 @@ export function About () {
             <p>
                 My goals are to become a front-end developer and working with agile teams and help to create long-lasting business relationships.
             </p>
+            
             <a href={Pdf} target="_blank" rel="noreferrer">
                 <img src={fileImg} alt="icon-file"/>
                 See my Resume

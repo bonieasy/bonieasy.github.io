@@ -1,5 +1,6 @@
 import { Container, Content } from "./styles";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -17,9 +18,9 @@ export function Header() {
   return(
       <Container>
           <Content className={navbar ? 'navbar active' : 'navbar'}>
-              <a href="#home" >Home</a>
-              <a href="#about">About</a>
-              <a href="#projects">Projects</a>
+              <Link to="/" >Home</Link>
+              <Link to="/about">About</Link>
+              <Link to="/projects">Projects</Link>
           </Content>
       </Container>
   );

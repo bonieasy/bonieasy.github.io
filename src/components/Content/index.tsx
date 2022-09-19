@@ -10,6 +10,7 @@ export function Content() {
                 <Texts>
                     <p>Hey! I'm Ariele Bonifacio</p>
                     <p>Front-End Developer Junior, based in Berlin</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, dignissimos. Nam dicta autem quia dolorum corporis neque omnis. Eaque nostrum, labore excepturi nihil voluptate non tenetur saepe corrupti eligendi ex.</p>
                 </Texts>
                 <Image>
                     <img src={photoImg} alt="profile"></img>

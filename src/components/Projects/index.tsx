@@ -30,8 +30,8 @@ export function Projects () {
                     <div className="elements">
                         <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
                         <div className="icons">
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={github} alt="Github-logo" /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={hand} alt="click-to-see" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/"><img src={hand} alt="click-to-see" /></a>
                         </div>
                     </div>
                 </div>
@@ -44,6 +44,78 @@ export function Projects () {
                         <div className="icons">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={github} alt="Github-logo" /></a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo1} alt="project-1"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/RevealDestiny"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/RevealDestiny/"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo1} alt="project-1"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/RevealDestiny"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/RevealDestiny/"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo1} alt="project-1"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/RevealDestiny"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/RevealDestiny/"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo2} alt="project-2"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo2} alt="project-2"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/"><img src={hand} alt="click-to-see" /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <figure><img className="image" src={photo2} alt="project-2"></img></figure>
+
+                    <div className="elements">
+                        <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate esse doloribus a autem maxime atque deserunt sequi quisquam ipsa debitis obcaecati mollitia nesciunt, quasi dolores iure labore sint non!</label>
+                        <div className="icons">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper"><img src={github} alt="Github-logo" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/"><img src={hand} alt="click-to-see" /></a>
                         </div>
                     </div>
                 </div>

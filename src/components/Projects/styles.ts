@@ -3,22 +3,26 @@ import styled from "styled-components";
 export const Container = styled.section`
     max-width: 1120px;
     margin: 0 auto;
+    //margin-top: 3rem;
+
     padding: 3rem 1rem 5rem;
     
     h1 {
         margin-bottom: 2rem;
         text-align: center;
+        margin-top: 3rem;
     }
 `;
 
 export const Slider = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
+    
 
     .card {
         position: relative;
-        
     }
 
     .card figure {
@@ -29,7 +33,7 @@ export const Slider = styled.div`
 
     .elements {
         position: absolute;
-        z-index: 10;
+        z-index: 1;
         width: 90%;
         top: 9rem;
         left: 1rem;

@@ -4,9 +4,12 @@ export const Container = styled.header`
         width: 100%;
         position: sticky;
         top:0;
+        z-index: 10;
 
     .navbar {
-        border-bottom: 2px solid #F4EEEE;
+        border-bottom: 1px solid var(--trace);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     }
     .navbar.active {
         border: none;
