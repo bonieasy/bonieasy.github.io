@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const Container = styled.section`
     max-width: 1120px;
     margin: 0 auto;
-    //margin-top: 3rem;
-
     padding: 3rem 1rem 5rem;
     
     h1 {
@@ -23,12 +21,21 @@ export const Slider = styled.div`
 
     .card {
         position: relative;
+        width: 350px;
+        height: 350px;
     }
 
     .card figure {
         background: #000;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
+        border-radius: 10px;
+        width: 350px;
+        height: 350px;
+    }
+    .card figure img {
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
     }
 
     .elements {

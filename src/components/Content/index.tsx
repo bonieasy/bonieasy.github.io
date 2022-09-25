@@ -8,9 +8,10 @@ export function Content() {
         <Container id="home">
             <Contents>
                 <Texts>
-                    <p>Hey! I'm Ariele Bonifacio</p>
-                    <p>Front-End Developer Junior, based in Berlin</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, dignissimos. Nam dicta autem quia dolorum corporis neque omnis. Eaque nostrum, labore excepturi nihil voluptate non tenetur saepe corrupti eligendi ex.</p>
+                    <p>Hey! I'm Boni</p>
+                    <p>Happy to have you on my page!</p>
+                    <p>I'm web developer student, based in Berlin and at the moment I'm dedicating my time to learning more about ReacJS.</p>
+                    
                 </Texts>
                 <Image>
                     <img src={photoImg} alt="profile"></img>

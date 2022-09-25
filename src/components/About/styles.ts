@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 3rem;
-  //border-bottom: 2px solid #F4EEEE;
-
+  
   a {
     background: var(--text-body);
     color: var(--background);
@@ -11,11 +10,16 @@ export const Container = styled.section`
     font-weight: 300;
     border: 0;
     padding: 0 2rem;
+    margin-top: 30px;
     border-radius: 0.5rem;
     height: 5rem;
-
     display: flex;
     align-items: center;
+    transition: background-color 0.5s ease;
+  }
+  a:hover {
+    background-color: #4A4848;
+    cursor:pointer;
   }
   `;
 

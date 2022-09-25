@@ -27,7 +27,6 @@ export const Texts = styled.div`
     font-weight: 300;
     letter-spacing: 0.9px;
     line-height: 1.2;
-
 }
 `;
 

@@ -41,6 +41,13 @@ p {
     text-align: left;
     font-size: 1.5rem;
     font-weight: 300;
+    letter-spacing: 0.9px;
+    line-height: 1.2;
+}
+
+p::selection {
+    background: #000000;
+    color: #fff;
 }
 a {
     text-decoration: none;
