@@ -29,12 +29,22 @@ export const Content = styled.div`
     justify-content: flex-start;
     gap: 2.25rem;
     background: white;
-    transition: background 0.4s;
 
-
-
-    a:visited {
-    color: #000000;
+    a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--text-body);
+    //transition: width .3s;
 }
 
+    a:hover::after {
+        width: 100%;
+        transition: width .4s;
+    }
+
+    a:visited {
+    color: var(--text-body);
+}
 `;
