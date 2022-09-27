@@ -2,8 +2,6 @@ import { Container, Slider } from "./styles";
 import photo1 from "../../assets/project-1.png";
 import photo2 from "../../assets/project-2.png";
 import photo3 from "../../assets/project-3.png";
-import github from "../../assets/github-circle.svg";
-import hand from "../../assets/hand.svg";
 
 export function Projects () {
     return(
@@ -16,10 +14,10 @@ export function Projects () {
                     <figure><img className="image" src={photo1} alt="project-1"></img></figure>
 
                     <div className="elements">
-                        <label>Simple system that can reveal your destiny, just type your question and your destiny will be revealed.</label>
+                        <label>Reveal your destiny</label>
                         <div className="icons">
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/RevealDestiny"><img src={github} alt="Github-logo" /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/RevealDestiny/"><img src={hand} alt="click-to-see" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/RevealDestiny">Github</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/RevealDestiny/">View Demo</a>
                         </div>
                     </div>
                 </div>
@@ -30,8 +28,8 @@ export function Projects () {
                     <div className="elements">
                         <label>Login page using Google</label>
                         <div className="icons">
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper"><img src={github} alt="Github-logo" /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/"><img src={hand} alt="click-to-see" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Login-Helper">Github</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Login-Helper/">View Demo</a>
                         </div>
                     </div>
                 </div>
@@ -40,10 +38,10 @@ export function Projects () {
                     <figure><img className="image" src={photo3} alt="project-3"></img></figure>
 
                     <div className="elements">
-                        <label>Age validation system, by entering the date of birth, the current age is shown and if the user has the required age.</label>
+                        <label>Age validation</label>
                         <div className="icons">
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Ignite_Lab_Event_Plataform"><img src={github} alt="Github-logo" /></a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Ignite_Lab_Event_Plataform/"><img src={hand} alt="click-to-see" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy/Age">Github</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://bonieasy.github.io/Age">View Demo</a>
                         </div>
                     </div>
                 </div>

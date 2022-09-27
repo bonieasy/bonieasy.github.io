@@ -1,7 +1,8 @@
-import { Container, Contents, Texts, Image, Icons } from "./styles";
+import { Container, Contents, Texts, Line, Image, Icons } from "./styles";
 import photoImg from "../../assets/photo.png"
 import githubImg from "../../assets/github.svg"
 import linkedinImg from "../../assets/linkedin.svg"
+import boniImg from "../../assets/boni-heart.webp"
 
 export function Content() {
     return(
@@ -9,8 +10,12 @@ export function Content() {
             <Contents>
                 <Texts>
                     <p>Hey! I'm Boni</p>
-                    <p>Happy to have you on my page!</p>
-                    <p>I'm web developer student, based in Berlin and at the moment I'm dedicating my time to learning more about ReacJS.</p>
+                    <Line>
+                        <p>Happy to have you on my page!</p>
+                        <img src={boniImg} alt="emoji-hearts"></img>
+                    </Line>
+
+                    <p>I'm web developer student, based in Berlin dedicating my time to learning more about ReacJS.</p>
                     
                 </Texts>
                 <Image>
