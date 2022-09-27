@@ -4,6 +4,11 @@ export const Container = styled.section`
     max-width: 1120px;
     margin: 0 auto;
     padding: 3rem 1rem 5rem;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem; */
     
     h1 {
         margin-bottom: 2rem;
@@ -13,57 +18,64 @@ export const Container = styled.section`
 `;
 
 export const Slider = styled.div`
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
+
+
     
 
     .card {
-        position: relative;
-        width: 350px;
-        height: 350px;
+        overflow: hidden;
+        border-radius: 5px;
+
+        background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #D7D6D6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 450px;
+
+        
     }
 
-    .card figure {
-        background: #000;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        width: 350px;
-        height: 350px;
-    }
     .card figure img {
         width: 350px;
-        height: 350px;
-        border-radius: 10px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    a{
+        background: var(--text-body);
+        color: var(--background);
+        border-radius: 20px;
+        padding: 8px 15px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 15px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     }
 
     .elements {
-        position: absolute;
-        z-index: 1;
-        width: 90%;
-        top: 9rem;
-        left: 1rem;
-        opacity: 0;
-        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
     }
+
     label {
-        color: #fff;
-    }
-
-    .card:hover .elements {
-        transition: all 0.2s ease;
-        opacity: 1;
-    }
-
-    .card:hover .image {
-        background: red;
-        opacity: 0.3;
+        padding: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .icons {
-        padding-top: 50px;
         display: flex;
-        gap: 2rem;
+        flex-direction: row;
+        gap: 10px;
+        padding: 20px;
     }
-`;
+
+    `;

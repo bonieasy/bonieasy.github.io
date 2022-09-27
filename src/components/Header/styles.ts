@@ -5,11 +5,10 @@ export const Container = styled.header`
         position: sticky;
         top:0;
         z-index: 10;
-
+    
     .navbar {
         border-bottom: 1px solid var(--trace);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
     }
     .navbar.active {
         border: none;
@@ -18,15 +17,14 @@ export const Container = styled.header`
 `;
 
 export const Content = styled.div`
-    //max-width: 1120px;
-    margin: 0 auto;
-    padding: 3rem 11rem 3rem;
+    padding: 2rem 11rem 2rem;
     font-size: 20px;
     font-weight: 300;
 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     gap: 2.25rem;
     background: white;
 
@@ -47,4 +45,11 @@ export const Content = styled.div`
     a:visited {
     color: var(--text-body);
 }
+`;
+
+export const Emoji = styled.div`
+    padding-left: 50rem;
+    img {
+        width: 70px;
+    }
 `;

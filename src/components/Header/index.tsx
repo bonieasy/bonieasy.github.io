@@ -1,6 +1,7 @@
-import { Container, Content } from "./styles";
+import { Container, Content, Emoji } from "./styles";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import boniImg from "../../assets/boni-computer.webp"
 
 export function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -21,6 +22,9 @@ export function Header() {
               <Link to="/" >Home</Link>
               <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
+              <Emoji>
+                <img src={boniImg} alt="boni-emoji"></img>
+              </Emoji>
           </Content>
       </Container>
   );
