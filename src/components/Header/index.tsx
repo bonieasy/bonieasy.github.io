@@ -1,4 +1,4 @@
-import { Container, Content, Emoji } from "./styles";
+import { Container, Content, ActionBar, Emoji } from "./styles";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import boniImg from "../../assets/boni-computer.webp"
@@ -19,9 +19,11 @@ export function Header() {
   return(
       <Container>
           <Content className={navbar ? 'navbar active' : 'navbar'}>
-              <Link to="/" >Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/projects">Projects</Link>
+              <ActionBar>
+                <Link to="/" >Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+              </ActionBar>
               <Emoji>
                 <img src={boniImg} alt="boni-emoji"></img>
               </Emoji>

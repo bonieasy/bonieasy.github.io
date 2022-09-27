@@ -13,7 +13,6 @@ export const Contents = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 20rem;
 `; 
 
 export const Texts = styled.div`
@@ -26,7 +25,8 @@ export const Texts = styled.div`
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 0.9px;
-    line-height: 1.2;
+    line-height: 50px;
+    padding-bottom: 0;
 }
   img {
     width: 50px;
@@ -37,11 +37,11 @@ export const Line = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+
   `;
 
 export const Image = styled.div`
-  margin-top: 2rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
   img {
     width: 400px;
   }

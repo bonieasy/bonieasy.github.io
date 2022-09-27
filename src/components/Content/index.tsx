@@ -17,15 +17,17 @@ export function Content() {
 
                     <p>I'm web developer student, based in Berlin dedicating my time to learning more about ReacJS.</p>
                     
+                    <Icons>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={githubImg} alt="Github-logo" /></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ariele-bonifacio/"><img src={linkedinImg} alt="Linkedin-logo" /></a>
+                    </Icons>
+
                 </Texts>
                 <Image>
                     <img src={photoImg} alt="profile"></img>
                 </Image>
             </Contents>
-            <Icons>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bonieasy"><img src={githubImg} alt="Github-logo" /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ariele-bonifacio/"><img src={linkedinImg} alt="Linkedin-logo" /></a>
-            </Icons>
+            
         </Container>
     );
 }
