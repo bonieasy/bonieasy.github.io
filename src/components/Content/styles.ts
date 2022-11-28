@@ -6,6 +6,10 @@ export const Container = styled.div`
   padding: 3rem 11em 3rem;
   //border-bottom: 2px solid #F4EEEE;
   //margin-top: 1rem;
+
+  @media (max-width: 768px) {
+        padding: 3rem;
+  }
     `;
 
 export const Contents = styled.div`
@@ -38,12 +42,25 @@ export const Line = styled.div`
   flex-direction: row;
   align-items: flex-end;
 
+  @media (max-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    img {
+      width: 80px;
+    }
+        
+    }
+
   `;
 
 export const Image = styled.div`
   margin-left: 2rem;
   img {
     width: 400px;
+  }
+  @media (max-width: 768px) {
+        display: none;
   }
   
 `;
@@ -55,4 +72,12 @@ export const Icons = styled.div`
   justify-content: flex-start;
   gap: 1rem;
   margin-top: 2rem;
+
+  @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        
+    }
 `;
+
+

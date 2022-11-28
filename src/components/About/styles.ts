@@ -33,5 +33,9 @@ export const Container = styled.section`
     margin: 0 auto;
     padding: 3rem 1rem 5rem;
 
+    @media (max-width: 768px) {
+        padding: 3rem;
+  }
+
   `;
   

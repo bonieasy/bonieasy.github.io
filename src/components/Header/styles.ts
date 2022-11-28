@@ -51,10 +51,45 @@ export const Content = styled.div`
 export const ActionBar = styled.div`
     display: flex;
     gap: 1.5rem;
+    
+    @media (max-width: 768px) {
+        display: none;
+
+        &.responsive {
+            display: flex;
+            flex-direction: column;
+    }
+  }
 `;
 
 export const Emoji = styled.div`
     img {
         width: 70px;
     }
+
+    @media (max-width: 768px) {
+        width: 60px;
+  }
 `;
+export const MenuContentStyled = styled.div`
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  padding: 10px;
+  display: none; 
+  height: 40px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+
+    
+  }
+  `;
