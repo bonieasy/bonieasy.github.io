@@ -11,6 +11,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    @media (max-width: 768px) {
+        overflow-x: hidden;
+  }
 }
 
 html {
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5, h6, strong {
     font-size: 2rem;
 }
 p {
-    padding-bottom: 1rem;
+    //padding-bottom: 1rem;
     text-align: left;
     font-size: 1.5rem;
     font-weight: 300;

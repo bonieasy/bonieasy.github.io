@@ -4,11 +4,6 @@ export const Container = styled.section`
     max-width: 1120px;
     margin: 0 auto;
     padding: 3rem 1rem 5rem;
-
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem; */
     
     h1 {
         margin-bottom: 2rem;
@@ -24,8 +19,11 @@ export const Slider = styled.div`
     flex-wrap: wrap;
     gap: 1rem;
 
-
-    
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        
+    }
 
     .card {
         overflow: hidden;
