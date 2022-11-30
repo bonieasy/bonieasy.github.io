@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.bc4197a0.js",
+    "main.js": "/static/js/main.69d68343.js",
     "static/media/photo.png": "/static/media/photo.7b22780effafb70a7dc4.png",
     "static/media/boni-computer.webp": "/static/media/boni-computer.5eaed295f9894e815d34.webp",
     "static/media/boni-heart.webp": "/static/media/boni-heart.08493036280eec183870.webp",
@@ -13,9 +13,9 @@
     "index.html": "/index.html",
     "static/media/file.svg": "/static/media/file.f4608948ba20938d8a8503c6f2591e43.svg",
     "static/media/menu.svg": "/static/media/menu.8c6717445f54785c0a135d6c2a656161.svg",
-    "main.bc4197a0.js.map": "/static/js/main.bc4197a0.js.map"
+    "main.69d68343.js.map": "/static/js/main.69d68343.js.map"
   },
   "entrypoints": [
-    "static/js/main.bc4197a0.js"
+    "static/js/main.69d68343.js"
   ]
 }
