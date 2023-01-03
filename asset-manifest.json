@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.0c37c98f.js",
+    "main.js": "/static/js/main.e1381095.js",
     "static/media/photo.png": "/static/media/photo.7b22780effafb70a7dc4.png",
     "static/media/boni-computer.webp": "/static/media/boni-computer.5eaed295f9894e815d34.webp",
     "static/media/boni-heart.webp": "/static/media/boni-heart.08493036280eec183870.webp",
     "static/media/project-2.png": "/static/media/project-2.6311d4027cd08bd83309.png",
+    "static/media/project-4.png": "/static/media/project-4.e66484cd964521775fca.png",
+    "static/media/project-5.png": "/static/media/project-5.67d8cba47de21f8fbbfc.png",
     "static/media/project-1.png": "/static/media/project-1.1dbb4c7c1724d2e31f0e.png",
     "static/media/project-3.png": "/static/media/project-3.c3f3c90cea7a1826ba6c.png",
     "static/media/ariele.pdf": "/static/media/ariele.b9e1515dc52249a36c24.pdf",
@@ -13,9 +15,9 @@
     "index.html": "/index.html",
     "static/media/file.svg": "/static/media/file.f4608948ba20938d8a8503c6f2591e43.svg",
     "static/media/menu.svg": "/static/media/menu.8c6717445f54785c0a135d6c2a656161.svg",
-    "main.0c37c98f.js.map": "/static/js/main.0c37c98f.js.map"
+    "main.e1381095.js.map": "/static/js/main.e1381095.js.map"
   },
   "entrypoints": [
-    "static/js/main.0c37c98f.js"
+    "static/js/main.e1381095.js"
   ]
 }
